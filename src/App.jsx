@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="title">Hasan Abi Doğum Günün Kutlu Olsun! 🎂</h1>
+      <h1 className="title">Groot Doğum Günün Kutlu Olsun! 🎂</h1>
       <p className="subtitle">Yeni yaşın sağlık ve huzur getirsin.</p>
 
       <button className="magic-button" onClick={patlat}>
