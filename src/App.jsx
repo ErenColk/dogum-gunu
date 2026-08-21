@@ -127,7 +127,7 @@ function App() {
               onClick={sinirliTiklandi}
             >
               {kilitlendi
-                ? "İkimizde biliyoruz sinirlisin bana tıkla"
+                ? "İkimizde biliyoruz sinirlisin TIKLA BANA"
                 : "ÇOOOOK SİNİRLİYİM"}
             </button>
 
@@ -147,7 +147,7 @@ function App() {
                   : {}
               }
             >
-              Gayet Sakin Bir Kişiyim
+              SAKİN BİR KİŞİYİM
             </button>
           </div>
         </>
@@ -157,7 +157,7 @@ function App() {
       {asama === 2 && (
         <>
           <h1 className="title error-title">TESTİ GEÇEMEDİN ❌</h1>
-          <p className="subtitle">KEŞKE SAKİN BİRİ OLSAYDIN.</p>
+          <p className="subtitle">AHH SİNİRLERİNE HAKİM OLMALISIN</p>
           <button className="final-button" onClick={sevgiTestineGec}>
             Sevgi Testine Devam Et ❤️
           </button>
@@ -208,7 +208,7 @@ function App() {
             <div className="celebration-box">
               <h2 className="celebration-text">Sonsuza Kadar Birlikte! 🎉</h2>
               <img src={foto} alt="Biz" className="celebration-photo" />
-              <p className="message-box">Seni çok seviyorum! ❤️</p>
+              <p className="message-box">Bende Seni çok seviyorum! ❤️</p>
             </div>
           )}
         </>
